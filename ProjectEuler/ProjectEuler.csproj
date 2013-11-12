@@ -7,8 +7,8 @@
     <ProjectGuid>{E53966E7-2F67-468E-8837-3908666DADA2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Project_Euler</RootNamespace>
-    <AssemblyName>Project-Euler</AssemblyName>
+    <RootNamespace>ProjectEuler</RootNamespace>
+    <AssemblyName>ProjectEuler</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

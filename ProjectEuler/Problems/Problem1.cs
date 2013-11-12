@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjectEuler.Problems {
 	public class Problem1 {
@@ -15,13 +11,13 @@ namespace ProjectEuler.Problems {
 		//233168
 		public static void Solve() {
 			var sumOfMultiples = 0;
-			for (int ct = 0; ct < 1000; ct++) {
+			for (var ct = 0; ct < 1000; ct++) {
 				if (ct % 3 == 0 || ct % 5 == 0) {
 					sumOfMultiples += ct;
 				}
 			}
 
-			Console.WriteLine(string.Format("sum of all multiples of 3 or 5 below 1000 is {0}", sumOfMultiples));
+			Console.WriteLine("sum of all multiples of 3 or 5 below 1000 is {0}", sumOfMultiples);
 		}
 	}
 }
