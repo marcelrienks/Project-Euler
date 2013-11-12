@@ -5,8 +5,12 @@ Project Euler (http://projecteuler.net/index.php)
 This is a C# App to Solve the Project Euler problems.
 Each problem is contained in it's own class within the Problems folder.
 
-
 ## Development ##
+
+### ToDo: ###
+* Complete problem 2
+
+## Problems ##
 
 ### Problem 1: ###
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.  
