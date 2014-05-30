@@ -1,5 +1,4 @@
 # Project-Euler #
-
 Project Euler (http://projecteuler.net/index.php)
 
 This is a C# App to Solve the Project Euler problems.
@@ -8,7 +7,6 @@ Each problem is contained in it's own class within the Problems folder.
 ## Development ##
 
 ### ToDo: ###
-* Implement Unit tests to prove the solutions to the problems
 * Solve next problem
 
 ## Problems ##

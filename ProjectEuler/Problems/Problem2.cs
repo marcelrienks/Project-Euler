@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace ProjectEuler.Problems {
 	public class Problem2 : IProblem {
 
@@ -10,7 +9,7 @@ namespace ProjectEuler.Problems {
 
 		//Answer:
 		//4613732
-		public void Solve() {
+		public string Solve() {
 			var valueOne = 1;
 			var valueTwo = 2;
 			var nextTerm = 0;
@@ -26,9 +25,7 @@ namespace ProjectEuler.Problems {
 				}
 			}
 
-			Console.WriteLine();
-			Console.WriteLine("Problem 2:");
-			Console.WriteLine("The sum of the even-valued terms in the Fibonacci sequence below 4000000 is {0}", sumOfSequences);
+			return string.Format("The sum of the even-valued terms in the Fibonacci sequence below 4000000 is {0}", sumOfSequences);
 		}
 	}
 }

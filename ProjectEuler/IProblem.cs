@@ -1,6 +1,6 @@
 ﻿
 namespace ProjectEuler {
 	interface IProblem {
-		void Solve();
+		string Solve();
 	}
 }

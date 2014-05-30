@@ -3,23 +3,35 @@
 namespace ProjectEuler {
 	public class Program {
 		static void Main() {
-			//Get the number of the problem to solve
-			Console.WriteLine("Enter the number of the problem to solve?");
-			var problemNumber = Console.ReadLine();
+			while (true) {
+				//Get the number of the problem to solve
+				Console.WriteLine("Enter the number of the problem to solve?");
 
-			//Use Reflection to instantiate the problem specified
-			var type = System.Reflection.Assembly.Load("ProjectEuler").GetType(string.Format("ProjectEuler.Problems.Problem{0}", problemNumber));
-			if (type != null) {
-				var problem = (IProblem)Activator.CreateInstance(type);
+				//Validate input
+				var input = Console.ReadLine();
+				if (input != null && input.ToLower() == "exit") {
+					break;
+				}
 
-				//Solve the problem
-				problem.Solve();
-				Console.ReadLine();
+				//Use Reflection to instantiate the problem specified
+				var type = System.Reflection.Assembly.Load("ProjectEuler").GetType(string.Format("ProjectEuler.Problems.Problem{0}", input));
+				if (type != null) {
+					var problem = (IProblem)Activator.CreateInstance(type);
 
-			} else {
-				Console.WriteLine();
-				Console.WriteLine("Could not find Problem {0}?", problemNumber);
-				Console.ReadLine();
+					//Solve the problem
+					var solution = problem.Solve();
+					Console.WriteLine();
+					Console.WriteLine("Problem {0}:", input);
+					Console.WriteLine(solution);
+					Console.WriteLine();
+					Console.WriteLine("-----------------------------");
+					Console.WriteLine();
+
+				} else {
+					Console.WriteLine();
+					Console.WriteLine("Could not find Problem {0}?", input);
+					Console.ReadLine();
+				}
 			}
 		}
 	}
