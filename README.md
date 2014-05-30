@@ -8,7 +8,8 @@ Each problem is contained in it's own class within the Problems folder.
 ## Development ##
 
 ### ToDo: ###
-* Complete problem 2
+* Implement Unit tests to prove the solutions to the problems
+* Solve next problem
 
 ## Problems ##
 
