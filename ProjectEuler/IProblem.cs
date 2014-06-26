@@ -1,6 +1,7 @@
-﻿
-namespace ProjectEuler {
-	interface IProblem {
-		string Solve();
-	}
+﻿namespace ProjectEuler
+{
+    internal interface IProblem
+    {
+        string Solve();
+    }
 }
