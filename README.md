@@ -1,4 +1,4 @@
-# Project-Euler #
+# Project-Euler [![Build status](https://ci.appveyor.com/api/projects/status/6w8laxjvls95yi32/branch/master)](https://ci.appveyor.com/project/celemar/project-euler/branch/master)
 Project Euler (http://projecteuler.net/index.php)
 
 This is a C# App to Solve the Project Euler problems.
