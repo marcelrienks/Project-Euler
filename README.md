@@ -1,6 +1,4 @@
-[![Build Status](https://dev.azure.com/marcelrienks/Project-Euler/_apis/build/status/marcelrienks.Project-Euler?branchName=master)](https://dev.azure.com/marcelrienks/Project-Euler/_build/latest?definitionId=5&branchName=master)
-
-# Project-Euler
+# Project-Euler [![Build Status](https://dev.azure.com/marcelrienks/Project-Euler/_apis/build/status/marcelrienks.Project-Euler?branchName=master)](https://dev.azure.com/marcelrienks/Project-Euler/_build/latest?definitionId=5&branchName=master)
 Project Euler (http://projecteuler.net/index.php)
 
 This is a C# App to Solve the Project Euler problems.
